@@ -1,0 +1,23 @@
+body { background-color: #0e475a; }
+
+.fizz { background-color: lime; }
+
+.buzz { background-color: rgb(242, 255, 0); }
+
+.fizzbuzz { background-color: cyan ; }
+
+.pluzz { background-color: orangered; }
+
+.bonuzz { background-color: blue; }
+
+.standard { background-color: hotpink ; }
+
+button {
+    width: calc((100% / 7) - 1rem);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    border-radius: 8px;
+}
